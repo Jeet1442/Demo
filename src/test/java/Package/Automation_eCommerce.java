@@ -9,12 +9,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import PageObjects.LandingPage;
 
 public class Automation_eCommerce {
 
-	public static void main(String[] args) {
+	@Test
+	public void E_Comerce() {
 		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();
 		
